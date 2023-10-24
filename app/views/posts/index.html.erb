@@ -3,26 +3,5 @@
 
 <h1>自分の題名</h1>
 <h3>一覧ページ</h3>
-<%= link_to "新規投稿へ", new_post_path %>
-<%= link_to "長崎の観光一覧へ", posts_nagasaki_path %>
-<%= link_to "宮崎の観光一覧へ", posts_miyazaki_path %>
-<%= link_to "大分の観光一覧へ", posts_oita_path %>
-<%= link_to "福岡の観光一覧へ", posts_fukuoka_path %>
-<%= link_to "佐賀の観光一覧へ", posts_saga_path %>
-<%= link_to "熊本の観光一覧へ", posts_kumamoto_path %>
-<%= link_to "鹿児島の観光一覧へ", posts_kagosima_path %>
-
-<%= link_to "診断", perfumes_path %>
-<div class="tweets-container">
-  <% @posts.each do |t| %>
-    <div class="tweet">
-      <%= t.name %>
-      <%= t.area %>
-      <%= t.address %>
-      <%= t.about %>
-      <%= t.image %>
-    </div>
-  <% end %>
-</div>
 
 </div>

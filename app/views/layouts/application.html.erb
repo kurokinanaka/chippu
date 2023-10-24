@@ -11,6 +11,20 @@
   </head>
 
   <body>
+  <header>
+  <%= link_to "長崎の観光一覧へ", posts_nagasaki_path %>
+<%= link_to "宮崎の観光一覧へ", posts_miyazaki_path %>
+<%= link_to "大分の観光一覧へ", posts_oita_path %>
+<%= link_to "福岡の観光一覧へ", posts_fukuoka_path %>
+<%= link_to "佐賀の観光一覧へ", posts_saga_path %>
+<%= link_to "熊本の観光一覧へ", posts_kumamoto_path %>
+<%= link_to "鹿児島の観光一覧へ", posts_kagosima_path %>
+
+<%= link_to "診断", perfumes_path %>
+  </header>
+  <main>
+  
     <%= yield %>
+  </main>
   </body>
 </html>
