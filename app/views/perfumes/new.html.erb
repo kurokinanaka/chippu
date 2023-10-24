@@ -1,0 +1,56 @@
+<div class="abokado">
+
+  <div class="absolute_test2">
+  <br>
+   <h1>おすすめ診断</h1>
+   <%= form_for(@perfume, class: 'form-horizontal', role: 'form') do |f| %>
+   <div class="container-sindan">
+   <br>
+   <br>
+    <div class="row">
+        <div class="col-12">
+                <p>Question1. この中で旅行をする際に一番行きたい場所はどこですか</p>
+            </div>
+            <div class="col-6">
+                <p><%= f.check_box :question, {multiple: true}, "1", nil %>動物園</p>
+            </div>
+            <div class="col-6">
+                <p><%= f.check_box :question, {multiple: true}, "2", nil %>水族館</p>
+            </div>
+            <div class="col-6">
+                <p><%= f.check_box :question, {multiple: true}, "3", nil %>自然・植物園</p>
+            </div>
+            <div class="col-12">
+                <p>Question2. この中で旅行をする際に一番行きたい場所はどこですか</p>
+            </div>
+            <div class="col-6">
+                <p><%= f.check_box :question, {multiple: true}, "1", nil %>温泉</p>
+            </div>
+            <div class="col-6">
+                <p><%= f.check_box :question, {multiple: true}, "2", nil %>ショッピング</p>
+            </div>
+            <div class="col-6">
+                <p><%= f.check_box :question, {multiple: true}, "3", nil %>神社・寺</p>
+            </div>
+            <div class="col-12">
+                <p>Question3. この中で旅行をする際に一番行きたい場所はどこですか</p>
+            </div>
+            <div class="col-6">
+                <p><%= f.check_box :question, {multiple: true}, "1", nil %>テーマパーク</p>
+            </div>
+            <div class="col-6">
+                <p><%= f.check_box :question, {multiple: true}, "2", nil %>自然絶景スポット</p>
+            </div>
+            <div class="col-6">
+                <p><%= f.check_box :question, {multiple: true}, "3", nil %>歴史建造物</p>
+            </div>
+        </div>
+    </div>
+    <div class="sindanbotan">
+        <%= f.submit "post" %>
+    </div>
+<% end %>
+
+
+
+

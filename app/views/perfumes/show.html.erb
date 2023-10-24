@@ -1,0 +1,205 @@
+<div class="intoro">
+<h5>診断結果</h5>
+<p>あなたにおすすめの旅行先は…</p>
+</div>
+<div class="tweet-container">
+  <div class="tweet">
+    <div class="prefecture">
+      <% if @perfume.question == "111" %>
+      <h6>大分県</h6>
+
+      <p>動物園：</p>
+      <p>温泉：</p>
+      <p>テーマパーク：</p>
+      <%= link_to "大分県", posts_oita_path %>
+    </div>
+
+
+    <% elsif @perfume.question == "112" %>
+    <h6>熊本県</h6>
+    <p>動物園：</p>
+    <p>温泉：</p>
+    <p>自然絶景スポット：</p>
+    <%= link_to "熊本県", posts_kumamoto_path %>
+
+    <% elsif @perfume.question == "113" %>
+    <h6>熊本県</h6>
+    <p>動物園：</p>
+    <p>温泉</p>
+    <p>歴史建造物</p>
+    <%= link_to "熊本県", posts_kumamoto_path %>
+
+    <% elsif @perfume.question == "211" %>
+    <h6>大分県</h6>
+    <p>水族館：</p>
+    <p>温泉</p>
+    <p>テーマパーク</p>
+    <%= link_to "大分県", posts_oita_path %>
+
+    <% elsif @perfume.question == "212" %>
+    <h6>鹿児島県</h6>
+    <p>水族館：</p>
+    <p>温泉：</p>
+    <p>自然絶景スポット：</p>
+    <%= link_to "鹿児島県", posts_kagosima_path %>
+
+    <% elsif @perfume.question == "213" %>
+    <h6>長崎県</h6>
+    <p>水族館：</p>
+    <p>温泉：</p>
+    <p>歴史建造物：</p>
+    <%= link_to "長崎県", posts_nagasaki_path %>
+
+    <% elsif @perfume.question == "311" %>
+    <h6>熊本県</h6>
+    <p>自然・植物園：</p>
+    <p>温泉：</p>
+    <p>テーマパーク：</p>
+    <%= link_to "熊本県", posts_kummoto_path %>
+
+    <% elsif @perfume.question == "312" %>
+    <h6>熊本県</h6>
+    <p>自然・植物園：</p>
+    <p>温泉</p>
+    <p>自然絶景スポット：</p>
+    <%= link_to "熊本県", posts_kumamoto_path %>
+
+    <% elsif @perfume.question == "313" %>
+    <h6>佐賀県</h6>
+    <p>自然・植物園：</p>
+    <p>温泉：</p>
+    <p>歴史建造物：</p>
+    <%= link_to "佐賀県", posts_saga_path %>
+
+    <% elsif @perfume.question == "121" %>
+    <h6>大分県</h6>
+    <p>動物園：</p>
+    <p>ショッピング：</p>
+    <p>テーマパーク</p>
+    <%= link_to "大分県", posts_oita_path %>
+
+    <% elsif @perfume.question == "122" %>
+    <h6></h6>大分県
+    <p>動物園：</p>
+    <p></p>ショッピング：
+    <p>自然絶景スポット：</p>
+    <%= link_to "大分県", posts_oita_path %>
+
+    <% elsif @perfume.question == "123" %>
+    <h6>大分県</h6>
+    <p>動物園：</p>
+    <p>ショッピング</p>
+    <p>歴史建造物：</p>
+    <%= link_to "大分県", posts_oita_path %>
+
+    <% elsif @perfume.question == "221" %>
+    <h6>大分県</h6>
+    <p>水族館：</p>
+    <p>ショッピング：</p>
+    <p>テーマパーク：</p>
+    <%= link_to "大分県", posts_oita_path %>
+
+    <% elsif @perfume.question == "222" %>
+    <h6>大分県</h6>
+    <p>水族館：</p>
+    <p>ショッピング：</p>
+    <p>自然絶景スポット</p>
+    <%= link_to "大分県", posts_oita_path %>
+
+    <% elsif @perfume.question == "223" %>
+    <h6>大分県</h6>
+    <p>水族館：</p>
+    <p>ショッピング</p>
+    <p>歴史建造物：</p>
+    <%= link_to "大分県", posts_oita_path %>
+
+    <% elsif @perfume.question == "321" %>
+    <h6>大分県</h6>
+    <p>自然・植物園：</p>
+    <p>ショッピング：</p>
+    <p>テーマパーク：</p>
+    <%= link_to "大分県", posts_oita_path %>
+
+    <% elsif @perfume.question == "322" %>
+    <h6>大分県</h6>
+    <p>自然・植物園：</p>
+    <p>ショッピング：</p>
+    <p>自然絶景スポット：</p>
+    <%= link_to "大分県", posts_oita_path %>
+
+    <% elsif @perfume.question == "323" %>
+    <h6>大分県</h6>
+    <p>自然・植物園：</p>
+    <p>ショッピング：</p>
+    <p>歴史建造物：</p>
+    <%= link_to "大分県", posts_oita_path %>
+
+    <% elsif @perfume.question == "131" %>
+    <h6>大分県</h6>
+    <p>動物園：</p>
+    <p>神社・寺：</p>
+    <p>テーマパーク：</p>
+    <%= link_to "大分県", posts_oita_path %>
+
+    <% elsif @perfume.question == "132" %>
+    <h6>大分県</h6>
+    <p>動物園：</p>
+    <p>神社・寺：</p>
+    <p>自然絶景スポット：</p>
+    <%= link_to "大分県", posts_oita_path %>
+
+    <% elsif @perfume.question == "133" %>
+    <h6>大分県</h6>
+    <p>動物園：</p>
+    <p>神社・寺：</p>
+    <p>歴史建造物：</p>
+    <%= link_to "大分県", posts_oita_path %>
+
+    <% elsif @perfume.question == "231" %>
+    <h6>大分県</h6>
+    <p>水族館：</p>
+    <p>神社・寺：</p>
+    <p>テーマパーク：</p>
+    <%= link_to "大分県", posts_oita_path %>
+
+    <% elsif @perfume.question == "232" %>
+    <h6>大分県</h6>
+    <p>水族館：</p>
+    <p>神社・寺：</p>
+    <p>自然絶景スポット：</p>
+    <%= link_to "大分県", posts_oita_path %>
+
+    <% elsif @perfume.question == "233" %>
+    <h6>大分県</h6>
+    <p>水族館：</p>
+    <p>神社・寺：</p>
+    <p>歴史建造物：</p>
+    <%= link_to "大分県", posts_oita_path %>
+
+    <% elsif @perfume.question == "331" %>
+    <h6>大分県</h6>
+    <p>自然・植物園：</p>
+    <p>神社・寺：</p>
+    <p>テーマパーク：</p>
+    <%= link_to "大分県", posts_oita_path %>
+
+    <% elsif @perfume.question == "332" %>
+    <h6>大分県</h6>
+    <p>自然・植物園：</p>
+    <p>神社・寺：</p>
+    <p>自然絶景スポット：</p>
+    <%= link_to "大分県", posts_oita_path %>
+
+    <% elsif @perfume.question == "333" %>
+    <h6>大分県</h6>
+    <p>自然・植物園：</p>
+    <p>神社・寺：</p>
+    <p>歴史建造物：</p>
+    <%= link_to "大分県", posts_oita_path %>
+
+
+
+
+    <% end %>
+
+</div>

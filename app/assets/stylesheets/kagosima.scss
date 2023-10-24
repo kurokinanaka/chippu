@@ -1,0 +1,149 @@
+.headerimage-furape{
+  background-image: url(sakurazima.jpg);
+  background-size: cover;
+  width: 100%;
+  height: 800px;
+  position: absolute;
+  top: 0%;
+  z-index: -10;
+  margin: 0 0 0.5rem;
+}
+.bigheader-furape{
+  justify-content: center;
+  text-align: center;
+  line-height: normal;
+  display: inline-block;
+  padding: 20px 20px;
+  margin: 180px 474px 700px 474px;
+  width: 600px;
+  position: relative;
+  top: 650px;
+}
+/*バニラクリームフラペチーノ*/
+.header-vanila{
+  text-align: center;
+  margin-bottom: 7%;
+}
+.vanila-top{
+  display: flex;
+}
+.vanila-1 {
+  background-size: cover;
+  background-image: url(furape-vanila);
+  height: 350px;
+  width: 33%;
+  margin-left: 4%;
+  margin-right: 4%;
+  margin-bottom: 5%;
+  text-align: center;
+}
+.setumei{
+  margin-top: 15px;
+}
+.vanila-2 {
+  background-size: cover;
+  background-image: url(furape-vanila);
+  height: 350px;
+  width: 33%;
+  margin-left: 4%;
+  margin-right: 4%;
+  margin-bottom: 5%;
+  text-align: center;
+}
+.vanila-3 {
+  background-size: cover;
+  background-image: url(furape-vanila);
+  height: 350px;
+  width: 33%;
+  margin-left: 4%;
+  margin-right: 4%;
+  margin-bottom: 5%;
+  text-align: center;
+}
+.sitanisuru{
+  margin-top: 350px;
+}
+/*抹茶クリームフラペチーノ*/
+.header-maccha{
+text-align: center;
+margin-top: 100px;
+margin-bottom: 5%;
+}
+.maccha-top{
+display: flex;
+}
+.maccha-1 {
+background-size: cover;
+background-image: url(furape-maccha.png);
+height: 350px;
+width: 33%;
+margin-left: 4%;
+margin-right: 4%;
+margin-bottom: 5%;
+text-align: center;
+}
+.maccha-2 {
+background-size: cover;
+background-image: url(furape-maccha.png);
+height: 350px;
+width: 33%;
+margin-left: 4%;
+margin-right: 4%;
+margin-bottom: 5%;
+text-align: center;
+}
+.maccha-3 {
+background-size: cover;
+background-image: url(furape-maccha.png);
+height: 350px;
+width: 33%;
+margin-left: 4%;
+margin-right: 4%;
+margin-bottom: 5%;
+text-align: center;
+}
+.sitanisuru{
+margin-top: 350px;
+}
+/*ダークモカチップフラペチーノ*/
+.header-choco{
+text-align: center;
+margin-top: 100px;
+margin-bottom: 5%;
+}
+.choco-top{
+display: flex;
+}
+.choco-1 {
+background-size: cover;
+background-image: url(furape-choco);
+height: 350px;
+width: 33%;
+margin-left: 4%;
+margin-right: 4%;
+margin-bottom: 5%;
+text-align: center;
+}
+.choco-2 {
+background-size: cover;
+background-image: url(furape-choco);
+height: 350px;
+width: 33%;
+margin-left: 4%;
+margin-right: 4%;
+margin-bottom: 5%;
+text-align: center;
+}
+.choco-3 {
+background-size: cover;
+background-image: url(furape-choco);
+height: 350px;
+width: 33%;
+margin-left: 4%;
+margin-right: 4%;
+margin-bottom: 5%;
+text-align: center;
+}
+.sitanisuru{
+margin-top: 350px;
+}
